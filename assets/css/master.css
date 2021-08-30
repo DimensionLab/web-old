@@ -1144,6 +1144,12 @@ button:focus {
     margin-left: 10px;
 }
 
+.btn-big {
+  padding: 6px 25px;
+  height: 60px;
+  font-size: 18px;
+}
+
 .btn:focus, .btn:focus:active {
     outline: none;
 }
@@ -1170,6 +1176,22 @@ button:focus {
     background-color: #d32f2f;
     border-color: #d32f2f;
     color: #fff;
+}
+
+.btn-gradient {
+  background: -webkit-linear-gradient(#e91e63, #ce1500);
+  color: #fff;
+  border-color: #d81702;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-gradient:hover, .btn-gradient:active, .btn-gradient:focus {
+  color: #fff;
+  background: -webkit-linear-gradient(#ce1500, #e91e63);
 }
 
 .btn-green {
