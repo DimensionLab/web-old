@@ -130,8 +130,8 @@ h3 a,
 h4 a,
 h5 a,
 h6 a { color: #fff;}
-p a {}
-p a:hover {color: #1a237e;}
+p a { color: #fff; }
+p a:hover {color: #d3392e;}
 p {
     letter-spacing: normal;
     line-height: 24px;
